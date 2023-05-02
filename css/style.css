@@ -110,6 +110,7 @@ footer {
 
 /* FINE STRUTTURA */
 
+/* header */
 .ext-menu ul {
     display: flex;
     flex-direction: row;
@@ -133,6 +134,11 @@ footer {
 
 .logo {
     width: 50px;
+}
+/* fine header */
+
+.phone {
+    width: 50%;
 }
 
 
