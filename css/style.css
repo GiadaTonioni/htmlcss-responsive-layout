@@ -88,6 +88,20 @@ header {
     background-color: aquamarine;
 }
 
+.section-6 {
+    background-color: rgb(245, 36, 210);
+}
+
+.col-center {
+    height: 300px;
+    background-color: beige;
+    margin: 10px;
+    width: calc(100%/2 - 20px);
+}
+
+footer {
+    background-color: gray;
+}
 
 
 /* TABLET */
