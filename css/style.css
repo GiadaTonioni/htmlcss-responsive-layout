@@ -76,8 +76,6 @@ header {
 .col-50 {
     width: calc(100%/2 - 20px);
     margin: 10px;
-    background-color: brown;
-    height: 200px;
 }
 
 .col-70 {
@@ -183,6 +181,25 @@ footer {
 
 .center {
     text-align: center;
+}
+
+/* sezione2 */
+
+.plan1 {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.title-white {
+    color: white;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+#full-purple {
+    width: 100%;
+    background-color: purple;
 }
 
 
