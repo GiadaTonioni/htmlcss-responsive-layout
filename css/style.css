@@ -214,10 +214,10 @@ footer {
     border-radius: 20px 20px;
 }
 
-/* #full-purple {
-    width: 100%;
-    background-color:;
-} */
+
+
+
+
 
 
 /* TABLET */
@@ -262,5 +262,8 @@ footer {
     }
     .content-1 {
         flex-direction: row;
+    }
+    .plan1 {
+        width: 50%;
     }
 }
