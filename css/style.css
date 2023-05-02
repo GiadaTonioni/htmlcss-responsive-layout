@@ -10,7 +10,7 @@ body {
 
 /* STRUTTURA */
 .container {
-    max-width: 70%;
+    max-width: 100%;
 }
 
 main {
@@ -69,8 +69,7 @@ header {
 
 
 .section-2 {
-    background-color: purple;
-    height: 300pxs;
+    background-color: rgb(143, 87, 216);
 }
 
 .col-50 {
@@ -179,6 +178,13 @@ footer {
     padding-bottom: 20px;
 }
 
+.txt-white {
+    font-size: 15px;
+    color: white;
+    line-height: 28px;
+    padding-bottom: 20px;
+}
+
 .center {
     text-align: center;
 }
@@ -186,7 +192,7 @@ footer {
 /* sezione2 */
 
 .plan1 {
-    width: 100%;
+    width: 140%;
     padding-top: 30px;
     padding-bottom: 40px;
 }
@@ -197,14 +203,29 @@ footer {
     margin: 15px 0;
 }
 
-#full-purple {
-    width: 100%;
-    background-color: purple;
+.title-black {
+    color: black;
+    font-size: 20px;
+    margin: 15px 0;
 }
+
+.card-white {
+    background-color: white;
+    border-radius: 20px 20px;
+}
+
+/* #full-purple {
+    width: 100%;
+    background-color:;
+} */
 
 
 /* TABLET */
 @media screen and (min-width: 991px) {
+    .containter {
+        max-width: 90%;
+    }
+    
     .row {
         flex-direction: row;
         flex-wrap: wrap;
