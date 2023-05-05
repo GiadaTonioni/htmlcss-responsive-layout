@@ -62,19 +62,26 @@ header {
     flex-direction: column;
 }
 
-.right-content {
-    
+.left-content {
+    display: flex;
+    justify-content: center;
 }
 
-
+.right-content {
+    text-align: center;
+    margin-top: 30px;
+}
 
 .section-2 {
-    background-color: rgb(143, 87, 216);
+    background-color: rgb(138, 119, 224);
+}
+
+.section-3 {
+    margin-bottom: 60px;
 }
 
 .col-50 {
-    width: calc(100%/2 - 20px);
-    margin: 10px;
+    width: 80%;
 }
 
 .col-70 {
@@ -91,7 +98,6 @@ header {
 }
 
 .col-center {
-    height: 300px;
     background-color: beige;
     margin: 10px;
     width: calc(100%/2 - 20px);
@@ -136,6 +142,10 @@ footer {
     padding: 20px;
 }
 
+.left-content {
+    position: relative;
+}
+
 .section-1 button {
     background-color: rgb(23, 121, 233);
     color: white;
@@ -144,6 +154,9 @@ footer {
     padding: 10px 50px;
     font-weight: 300;
     font-size: 18px;
+    position: absolute;
+    top: 120px;
+    left: 20px;
 }
 
 .col-double .title {
@@ -156,10 +169,18 @@ footer {
 
 .phone {
     width: 50%;
+    position: relative;
+    bottom: 0;
 }
 
-.title {
-    color: rgb(23, 121, 233);
+.title-purple {
+    color: rgb(143, 87, 216);
+    font-size: 35px;
+    margin: 15px 0;
+}
+
+.title-blu {
+    color: rgb(23, 121, 233); 
     font-size: 20px;
     margin: 15px 0;
 }
@@ -190,7 +211,7 @@ footer {
 /* sezione2 */
 
 .plan1 {
-    width: 140%;
+    width: 100%;
     padding-top: 30px;
     padding-bottom: 40px;
 }
@@ -199,6 +220,19 @@ footer {
     color: white;
     font-size: 20px;
     margin: 15px 0;
+}
+
+.big {
+    font-size: 30px;
+}
+
+.section-4 h1 {
+    font-size: 35px;
+    color: rgb(143, 87, 216);
+}
+
+.content-card {
+    padding: 40px 30px;
 }
 
 .title-black {
@@ -210,15 +244,19 @@ footer {
 .card-white {
     background-color: white;
     border-radius: 20px 20px;
+    padding: 20px;
+    margin-bottom: 40px;
 }
 
 .testimonial {
     width: 200px;
-    border-radius: 80%;
+    border-radius: 10em 10em;
+    margin-top: 40px;
+
 }
 
 .card-purple {
-    background-color: blueviolet;
+    background-color: rgb(138, 119, 224);
     border-radius: 20px 20px;
 }
 
@@ -229,6 +267,7 @@ footer {
 
 .content-center {
     text-align: center;
+    margin-top: 40px;
 }
 
 
@@ -254,11 +293,12 @@ footer {
     .col-30 {
         width: calc(100%/3 - 20px);
     }
+    
 }
 
 
 /* DESKTOP */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
     .ext-menu {
         display: block;
     }
@@ -280,5 +320,9 @@ footer {
     }
     .plan1 {
         width: 50%;
+    }
+    .col-50 {
+        width: calc(100%/2 - 200px);
+        margin: 100px;
     }
 }
