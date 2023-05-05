@@ -94,17 +94,18 @@ header {
 }
 
 .section-6 {
-    background-color: rgb(245, 36, 210);
+    background-color: rgb(189, 114, 219);
 }
 
 .col-center {
-    background-color: beige;
     margin: 10px;
-    width: calc(100%/2 - 20px);
+    width: 80%;
+    text-align: center;
 }
 
 footer {
-    background-color: gray;
+    background-color: rgb(75, 74, 74);
+    padding: 30px 0;
 }
 
 /* FINE STRUTTURA */
@@ -222,6 +223,12 @@ footer {
     margin: 15px 0;
 }
 
+.title-orange {
+    color: rgb(255, 208, 0);
+    font-size: 60px;
+    margin-bottom: 35px;
+}
+
 .big {
     font-size: 30px;
 }
@@ -229,6 +236,55 @@ footer {
 .section-4 h1 {
     font-size: 35px;
     color: rgb(143, 87, 216);
+}
+
+.section-4 h4, .section-5 h2 {
+    color: rgb(143, 87, 216);
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.section-4 button {
+    background-color:rgb(143, 87, 216);
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 30px 30px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.section-6 button {
+    background-color:white;
+    color: rgb(143, 87, 216);
+    padding: 10px 40px;
+    border: none;
+    border-radius: 30px 30px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.section-5 {
+    margin: 60px 0;
+}
+
+.section-5 button {
+    background-color:rgb(143, 87, 216);
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 30px 30px;
+    font-weight: 300;
+    font-size: 10px;
+    margin: 30px 0;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.purple {
+    color:rgb(143, 87, 216);;
 }
 
 .content-card {
@@ -260,9 +316,12 @@ footer {
     border-radius: 20px 20px;
 }
 
+
+
 .card-w {
     background-color: white;
     border-radius: 20px 20px;
+    margin: 25px;
 }
 
 .content-center {
@@ -283,7 +342,7 @@ footer {
     .row {
         flex-direction: row;
         flex-wrap: wrap;
-    }
+        justify-content: center;    }
     .content {
         flex-direction: row;
     }
@@ -293,7 +352,6 @@ footer {
     .col-30 {
         width: calc(100%/3 - 20px);
     }
-    
 }
 
 
